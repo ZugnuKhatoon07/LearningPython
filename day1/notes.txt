@@ -1,0 +1,4 @@
+jab hame bane hue git folder me code uploade kanrna hai to in codes ko line by line run karna hoga terminal me .
+     git add .
+     git commit -m "Your msg"
+     git push -u origin main
