@@ -7,3 +7,7 @@ jab hame bane hue git folder me code uploade kanrna hai to in codes ko line by l
 cd change directory
 
 python opretors
+
+Variables
+A variable is a name given to a memory location in a program.
+jiski value change hoti hai usko variable kahte hai.

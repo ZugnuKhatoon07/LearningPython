@@ -14,3 +14,7 @@ print(25%3)
 print(60/4)
 print(60*4)
 
+name="zugnu khatoon"
+age = 18
+print("my name is :",name)
+print("my age is :",age)
