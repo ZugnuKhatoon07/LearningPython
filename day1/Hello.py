@@ -8,3 +8,9 @@ b=5
 
 print(a+b,a-b,a*b,a%b)
 
+print(25+25) 
+print(25-5)
+print(25%3)
+print(60/4)
+print(60*4)
+

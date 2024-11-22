@@ -5,3 +5,5 @@ jab hame bane hue git folder me code uploade kanrna hai to in codes ko line by l
      git push -u origin main
      
 cd change directory
+
+python opretors
