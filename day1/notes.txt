@@ -11,3 +11,34 @@ python opretors
 Variables
 A variable is a name given to a memory location in a program.
 jiski value change hoti hai usko variable kahte hai.
+
+RULE FOR IDENTIFIERS
+1.identifiers can be combination of uppercase and lowercase letter, digits or underscpre(_).
+so myVriable, variable_1 variable_for_print all are valid python identifiers.
+
+2.An identifier can not start with digit. So while variable1 is valid,1variable is not valid.
+
+3.identifier can be of any length.
+
+4.we can not use  special symbols like !,#,@,%,& etc in our identifier.
+
+DATA TYPES
+1.integers
+2.string
+3.float
+4.boolean
+5.none
+
+COMMENTS UN python
+#Single line COMMENTS
+"""
+multi line COMMENTS
+
+"""
+TYPES OF OPERATORS
+An oprator is a symbol that performs a certain operation between operands.
+
+1. Arithmetic Operators(+,-,*,/,%,**)
+2.Relational / comparison Operators(==,!=,>,<,>=,<=)
+3.Assignment Operators(=,+=,*=,/=,%=,**=)
+4.LOgical Operators(not,and,or)

@@ -16,5 +16,22 @@ print(60*4)
 
 name="zugnu khatoon"
 age = 18
-print("my name is :",name)
-print("my age is :",age)
+age2=age
+#print("my name is ", name)
+#print("my age",age)
+
+print(type(name))
+print(type(age))
+
+age = 18
+old = False
+a = None
+print(type(old))
+print(type(a))
+
+a=2
+b=4
+sum=a+b
+print(sum)
+
+
