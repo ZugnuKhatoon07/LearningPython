@@ -42,3 +42,12 @@ An oprator is a symbol that performs a certain operation between operands.
 2.Relational / comparison Operators(==,!=,>,<,>=,<=)
 3.Assignment Operators(=,+=,*=,/=,%=,**=)
 4.LOgical Operators(not,and,or)
+
+AND KA VLUE JAB DONO SACH HO T HI TRUE HOTA HAI 
+BAKI SAB CONDTION ME FALSE HOTA HAI.
+
+ek value na to dushri value dono mese koi ek sach ho to true hota hai
+agar dono value false ho to false ho jata hAI.
+
+1.Type conversion
+2.Type casting
