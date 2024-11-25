@@ -1,0 +1,14 @@
+z = 'zugnu'
+print('z' in z)
+print('u' in z)
+print('g' not in z)
+print('n' in z)
+print('u' not in z)
+
+#identity operator
+a = 50
+b = 23
+c = 50
+print(a is c)
+print(a is not c)
+print(a is b) 
