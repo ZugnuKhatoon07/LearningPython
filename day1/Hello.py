@@ -90,4 +90,9 @@ print(a+b)
 name=input("enter any name:")
 print("welcome", name)
 
+val = int(input("enter some value:"))
+print(type(val), val)
 
+name = input("enter name: ",name)
+age = input("enter age: ",age)
+marks = input("enter =", marks)
