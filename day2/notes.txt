@@ -1,0 +1,17 @@
+STRINGS
+STRING IS DATA TYPE THAT STORES A SEQUENCE OF CHARACTERS
+
+Basic Operations
+. concatenation
+"hello" + "world"......."helloworld"
+
+.length of string
+  len(str)
+
+ascape squuence charecters jo farmeting ka kam karte hai jaise next line huaa space , tab etc.
+
+
+slicing :- Accessing parts of a string jab bhi hm string ko todte hai use hm slicing kahte hai.
+str[stsrtin_idx : ending_idx]#ending idx is not included.
+str = "zugnumaheen"
+str[1 : 3] is "m"
