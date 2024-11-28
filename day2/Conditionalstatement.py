@@ -1,31 +1,49 @@
-#_________***let's Practice***_________
+#__________________****Conditional Statemrnts****____________
+# 1
+age = 21
 
-#WAP to input user's first name & print its length.
-name = input("enter any name : ")
-# print(name)
-# print(len(name))
-print("length of your nsme is ", len(name))
+if(age >= 18):
+    print("can vote")
+    print("csn drive")
 
 
-#WAP to find the occurrence of '$'in a String.
-str = "i am$ zugnu$ from siwan$","$99.99"
-print(str.count("$"))
+#2
+light = "green"
 
-#conditional statements== grade students based on marks
-# marks >= 90,grade = "A"
-# 90  > marks >= 80, grade ="B"
-# 80 > marks >= 70,grade ="c"
-# 70 > marks,grade = "D"
-
-marks = int(input("enter studedent marks : "))
-if(marks >= 90):
-    print("grade A")
-elif(marks >=80 and marks < 90):
-    print("grade B")
-elif(marks >= 70 and marks < 80):
-    print("grade C")
+if(light == "red") :
+    print("stop")
+elif(light == "green"):
+    print("go")
+elif(light == "yellow"):
+    print("look")
 else:
-    print("grade D")
+    print("light is broken")
+
+print("end of code")
+
+#3
+num = 5
+if(num > 2):
+    print("greater than 2")
+elif(num > 3):
+    print("greter than 3")
+
+#4
+age = 24 
+ 
+if(age >= 18):
+    print("can vote")
+else:
+    print("can not vote")#....is space ko indentation kahte hai 
+
+#nesting
+if(age >= 18):
+    if(age >= 80):
+        print("can not drive")
+    else:
+        print("can drive")
+else:
+    print("cannot drive")
 
 #WAP to check if a number entered by the user is odd or eve.
 num = int(input("enter any number :"))
