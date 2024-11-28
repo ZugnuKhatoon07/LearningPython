@@ -1,0 +1,19 @@
+________****lists in python****________
+A built- in data type that stores of values
+it can store elements of different (integer, float, string, etc)
+###1 . marks = [87 , 64 , 33 , 95 , 76]  #marks[0], marks[1]
+
+###2 .student = ["zugnu", 95,"patna"]  #student[0],student[1]
+
+## 1. string is inmutable
+## 2. list is mutable
+
+srting ke andar access karna allowed tha par changr karna allowed nahi tha . or list me access or change karna allowed hai.
+
+list slicing :- similar to string slicing
+sublist :- sublist means list ka tukadha.
+
+list_name[starting_ind : ending_idx]  ##ending idx is not included
+
+ascending yani pahle chhuta value.0 1 2
+descending yani pahle badhi value.2 1 0
