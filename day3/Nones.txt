@@ -7,6 +7,7 @@ it can store elements of different (integer, float, string, etc)
 
 ## 1. string is inmutable
 ## 2. list is mutable
+## 3. list is inmutable
 
 srting ke andar access karna allowed tha par changr karna allowed nahi tha . or list me access or change karna allowed hai.
 
@@ -17,3 +18,6 @@ list_name[starting_ind : ending_idx]  ##ending idx is not included
 
 ascending yani pahle chhuta value.0 1 2
 descending yani pahle badhi value.2 1 0
+
+__________****Tuples in python****_____________
+A buit-in data type that lers us create immutable sequences of values.
