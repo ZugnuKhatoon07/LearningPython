@@ -1,17 +1,17 @@
 #_________***let's Practice***_________
 
-#WAP to input user's first name & print its length.
+#____________****WAP to input user's first name & print its length.****____________
 name = input("enter any name : ")
 # print(name)
 # print(len(name))
 print("length of your nsme is ", len(name))
 
 
-#WAP to find the occurrence of '$'in a String.
+#____________****WAP to find the occurrence of '$'in a String.****___________
 str = "i am$ zugnu$ from siwan$","$99.99"
 print(str.count("$"))
 
-#conditional statements== grade students based on marks
+#___________****conditional statements== grade students based on marks****___________
 # marks >= 90,grade = "A"
 # 90  > marks >= 80, grade ="B"
 # 80 > marks >= 70,grade ="c"
@@ -27,7 +27,7 @@ elif(marks >= 70 and marks < 80):
 else:
     print("grade D")
 
-#WAP to check if a number entered by the user is odd or eve.
+#___________****WAP to check if a number entered by the user is odd or eve.***___________
 num = int(input("enter any number :"))
 
 if(num % 2 ==0):
@@ -35,7 +35,7 @@ if(num % 2 ==0):
 else:
    print("odd")
 
-#WAP to find the greatest of 3 numbers entered by the user.
+#__________****WAP to find the greatest of 3 numbers entered by the user.****______________
 a = 5
 b = 7
 c = 9
@@ -57,7 +57,7 @@ elif(b >= c):
 else:
     print("thrid number is largest",c)   
 
-#WAP to check if a number is a multiple of 7 or not.
+#_________****WAP to check if a number is a multiple of 7 or not.***_____________
 x = int(input("enter any number :"))
 if(x % 7 ==0 ):
     print("multiple of 7")

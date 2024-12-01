@@ -4,11 +4,11 @@ print(tup[1])
 print(type(tup))
 print(len(tup))
 
-#returns index of first occurrence
+#_______****returns index of first occurrence****_________
 
 tup = (2, 1, 3, 4)
 print(tup.index(1))
 
-#counts total occurrences
+#_________****counts total occurrences****_________
 tup = (2, 1, 3, 1)
 print(tup.count(1))
