@@ -1,3 +1,0 @@
-__________****DICTIONARY IN PYTHON***____________
-Dictionaries are used to store data valies in key:value pairs
-they are unordered, mutable(changeable) & don't allow duplicate keys
