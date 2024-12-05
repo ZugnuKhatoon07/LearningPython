@@ -24,3 +24,6 @@ print(str.find("u"))
 str = "I am studying python from ApnaCollege"
 print(str.count("t"))
 
+name = ("")
+print(name)
+print(type(name))
