@@ -12,3 +12,8 @@ print(tup.index(1))
 #_________****counts total occurrences****_________
 tup = (2, 1, 3, 1)
 print(tup.count(1))
+
+#__________***empty tuples****___________
+number = () 
+print(number)
+print(type(number))
