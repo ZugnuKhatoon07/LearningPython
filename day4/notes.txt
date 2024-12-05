@@ -1,3 +1,23 @@
 __________****DICTIONARY IN PYTHON***____________
 Dictionaries are used to store data valies in key:value pairs
 they are unordered, mutable(changeable) & don't allow duplicate keys
+
+
+
+__________****Set in PYTHON****____________
+Set is the c0llection of the unordered items.
+Each element in the set must be unique & immutable.
+
+SET2 = {1,2,2,2}
+#repeated elements stored only once, so it resolve to {1,2}
+
+
+#***____set ke andar tuple ko likh sakte hai par list or dictionary nahi likh sakte hai.****__________
+
+
+
+
+
+
+
+

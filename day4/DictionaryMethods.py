@@ -60,5 +60,32 @@ student = {
 print(student["name"]) 
 print(student.get("name"))
 
-print(student["name2"]) #error
+# print(student["name2"]) #error
 print(student.get("name2")) #no error -> none
+
+#________****myDict.update(newDict) #insert the specified items to the dicionary****________
+
+student = {
+    "name" : "zugnu khatoon",
+    "subjects" : {
+        "English" : 97,
+        "operating system" : 99,
+        "maths" : 100,
+        "sad" : 98,
+        "C programming" : 90,
+        "age" : 18
+
+    }
+
+}
+student.update({"city" : "dehli"})
+student.update({"name" : "zugnu jaan","age" : 19})
+
+print(student)
+
+#________****emty dictionary****_________
+number = {}
+print(number)
+print(type(number))
+
+
