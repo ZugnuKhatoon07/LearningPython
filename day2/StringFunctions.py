@@ -27,3 +27,4 @@ print(str.count("t"))
 name = ("")
 print(name)
 print(type(name))
+
