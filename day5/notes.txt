@@ -1,0 +1,16 @@
+_____________****loops in python ****_____________
+loop are used to repeat instructions.
+=> while loop
+    while condition :
+      #some work
+
+
+**loop ka jo veriable hota hai use iterator kahte hai.
+**loop ke andar run karne ko iteration kahte hai.
+
+
+
+
+
+
+
