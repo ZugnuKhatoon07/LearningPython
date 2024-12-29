@@ -44,7 +44,11 @@ values = {
 }
 print(values)
 
-
+f = open("Z:\\python\\day4\\notes.txt", "r")
+data = f.read()
+print(data)
+print(type(data))
+f.close()
 
 
 

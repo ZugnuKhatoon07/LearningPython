@@ -1,0 +1,19 @@
+****______FUNCTION IN PYTHON****_________
+Block of stsements thst perfrom a specific task.
+
+def fun_name(pram 1, param 2..):
+  #some work 
+   return val
+
+func_name(aeg1 , arg2..)#function call
+ def sum(a, b):
+ s = a + b 
+  retun s 
+
+print(sum(2,3))
+
+
+****_____type of functions****_________
+
+1.Built-in functions   print(), len(), type(), range()
+2.user defined functions
