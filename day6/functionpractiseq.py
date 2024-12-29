@@ -47,3 +47,4 @@ def check_number_type(num):
 # number = int(input("enter any number :"))
 
 print(check_number_type(4))
+
