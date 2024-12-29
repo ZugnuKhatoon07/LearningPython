@@ -1,0 +1,36 @@
+******______FILE I/O IN PYTHON***________
+Python can be used to perform oprform operation on a file .(read & write data)
+
+_________****Types of all files****_________
+1. Text Files :.txt, .docx, .log et .
+2. Binary Files : .mp4, .mov, .png, .jpeg etc.
+
+Character                  meaning
+'r'   open for reading (default)
+'w'   open for writing, truncating the file first 
+'x'   create a new file and open it for writing
+'a'   open for writing, appending to the end of the file if it exists
+'b'   binary mode
+'t'   text mode (default)
+'+'   open a disk file for updating (reading and writing)
+
+*****_____Reading a file___________****
+data = f.read()  #read entire file
+
+data = f.readline() #reads one line at a time
+
+
+_________****Writing to a file****file___________
+f = open("notes.txt", "w")
+f.write("this is a new line") #overwrite the entire file
+
+f = open("notes,txt", "a")
+f.write("this is a new line") #adds to the file
+
+r+ read+ overwrite (ptor stast) -- no trucete
+w+ read overwrite  (ptor stast) -- trucete
+a+ read append     (ptr end) -- no truncate
+
+_________****With Syntax****file___________
+with open("zugnu.txt", "a") as f :
+   data = f.read()

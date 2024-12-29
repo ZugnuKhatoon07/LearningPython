@@ -35,4 +35,3 @@ def calc_avg(a, b, c):
     return avg
 
 calc_avg(1, 2, 3)
-
