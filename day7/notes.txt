@@ -1,0 +1,63 @@
+________****FILE I/O IN PYTHON****_____________
+Python can be used to perfrom operations on a file. (read & write data)
+
+
+_________***Types of all files***_________
+1.Text Files: .txt , .docx , .long etc.
+2.Binary Files: .mp4 , .mov , .png , .jpeg etc.
+
+___________***Open,read & close File***_________
+we heve to open a file before reading or writing.
+ f = open("file_name","mode")
+ 
+ notes.txt                    r:read mode
+ demo.docx                    w:write mode
+
+
+ data = f.read()
+
+ f.close()
+__________***CHARACTER MEANING***___________
+'r'          open for reading (default)
+'w'          open for writing, truncating the file first
+'x'          create a new file and open it for writing
+'a'          open for writing, appending to the end of the file if it exists
+'b'          binary mode
+'t'          text mode (detault)
+'+'          open a disk file for updating (reading and writing) 
+
+____________****Reading a file****_____________
+data = f.read()   #read entire file
+
+data = f.readline()  #reads one line at a time
+
+
+_____________****Writing to a file***_____________
+f = open("zugnu.txt","w")
+
+f.write("this is a new line") #overwrites the entire file
+
+
+
+____________***append to a file***_____________
+f = open("zugnu.txt", "a")
+
+f.write("this is a new line")  #adds to the file
+
+r+ read+ overwrite (ptor stast) --no truncate
+w+ read overwrute               -- truncate
+a+ read append (ptr end)        -- no truncate
+
+__________****With Syntax***_____________
+with open("zugnu.txt","a") as f:
+   data = f.read()
+
+
+
+__________*****Deleting a File****____________
+using the os module
+module (like a code libraary) is a file written by another programmer that generally has
+a finctins we can use
+
+import os
+os.remove(filename)
